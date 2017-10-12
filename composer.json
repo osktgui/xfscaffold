@@ -3,7 +3,7 @@
     "description": "Extend Laravel 5.5 generators scaffold.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
-    "type": "project",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Luis Oscátegui",
@@ -11,10 +11,7 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "fideloper/proxy": "~3.3",
-        "laravel/framework": "5.5.*",
-        "laravel/tinker": "~1.0"
+        "php": ">=7.0.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
@@ -23,10 +20,6 @@
         "phpunit/phpunit": "~6.0"
     },
     "autoload": {
-        "classmap": [
-            "database/seeds",
-            "database/factories"
-        ],
         "psr-4": {
             "xfscaffold\\": "src/"
         }
