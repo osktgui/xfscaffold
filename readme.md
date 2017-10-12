@@ -6,7 +6,15 @@
 ```
 composer require xf/xfscaffold:dev-master --dev
 ```
+##### add:
+```
+"required": {
+    ...
+    ...
+    "webpatser/laravel-uuid": "^2.0"
+}
 
+```
 ### Step 2: Add the Service Provider
 
 Open `config/app.php` and, to your **providers** array at the bottom, add:
