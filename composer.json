@@ -1,5 +1,5 @@
 {
-    "name": "xf/xfscaffold",
+    "name": "xfscaffold",
     "description": "Extend Laravel 5.5 generators scaffold.",
     "keywords": ["laravel", "generators", "scaffold" , "laravel5"],
     "license": "MIT",
