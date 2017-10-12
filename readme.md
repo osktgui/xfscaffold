@@ -31,6 +31,7 @@ This command will generate:
 ```
 app/Models/Test.php
 app/Http/Controllers/Api/TestController.php
+app/Http/Request/TestStore.php
 app/Repositories/Test.php
 app/Services/Test.php
 ```

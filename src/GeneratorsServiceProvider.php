@@ -1,4 +1,4 @@
-<?php namespace xfscaffold;
+<?php namespace xf\xfscaffold;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -29,7 +29,7 @@ class GeneratorsServiceProvider extends ServiceProvider {
    */
   private function registerScaffoldGenerator() {
     $this->app->singleton('command.xf.scaffold', function ($app) {
-      return $app['xfscaffold\Commands\XFScaffoldCommand'];
+      return $app['xf\xfscaffold\Commands\XFScaffoldCommand'];
     });
     $this->commands('command.xf.scaffold');
   }
