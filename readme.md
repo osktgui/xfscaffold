@@ -12,7 +12,7 @@ composer require xf/xfscaffold:dev-master --dev
 Open `config/app.php` and, to your **providers** array at the bottom, add:
 
 ```
-xfscaffold\GeneratorsServiceProvider::class
+xf\xfscaffold\GeneratorsServiceProvider::class
 ```
 
 ### Step 3: Run Artisan!

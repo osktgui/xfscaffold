@@ -86,7 +86,6 @@ class XFScaffoldCommand extends Command
     $this->line("\n----------- $footer -----------");
     $this->comment("----------- $dump -----------");
     $this->composer->dumpAutoloads();
-    $this->error("Don't forget to adjust: 'migrate' and 'routes'");
 
   }
 
