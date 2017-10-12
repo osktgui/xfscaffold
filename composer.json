@@ -1,9 +1,9 @@
 {
     "name": "xf/xfscaffold",
     "description": "Extend Laravel 5.5 generators scaffold.",
-    "keywords": ["framework", "laravel"],
+    "keywords": ["laravel", "generators", "scaffold" , "laravel5"],
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-master",
     "authors": [
         {
             "name": "Luis Oscátegui",
