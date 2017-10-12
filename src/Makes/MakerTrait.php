@@ -1,7 +1,7 @@
-<?php namespace xfscaffold\Makes;
+<?php namespace xf\xfscaffold\Makes;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
-use xfscaffold\Commands\XFScaffoldCommand;
+use xf\xfscaffold\Commands\XFScaffoldCommand;
 
 trait MakerTrait {
   protected $files;

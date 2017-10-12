@@ -1,23 +1,23 @@
 <?php
 
-namespace xfscaffold\Console\Commands;
+namespace xf\xfscaffold\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\DetectsApplicationNamespace;
 use Illuminate\Filesystem\Filesystem;
-use xfscaffold\Makes\MakeAudit;
-use xfscaffold\Makes\MakeContract;
-use xfscaffold\Makes\MakeController;
-use xfscaffold\Makes\MakeControllerApi;
-use xfscaffold\Makes\MakeCriteria;
-use xfscaffold\Makes\MakeCriteriaInterface;
-use xfscaffold\Makes\MakeEloquent;
-use xfscaffold\Makes\MakeModel;
-use xfscaffold\Makes\MakeRepository;
-use xfscaffold\Makes\MakeRequest;
-use xfscaffold\Makes\MakerTrait;
-use xfscaffold\Makes\MakeService;
-use xfscaffold\Makes\MakeUuids;
+use xf\xfscaffold\Makes\MakeAudit;
+use xf\xfscaffold\Makes\MakeContract;
+use xf\xfscaffold\Makes\MakeController;
+use xf\xfscaffold\Makes\MakeControllerApi;
+use xf\xfscaffold\Makes\MakeCriteria;
+use xf\xfscaffold\Makes\MakeCriteriaInterface;
+use xf\xfscaffold\Makes\MakeEloquent;
+use xf\xfscaffold\Makes\MakeModel;
+use xf\xfscaffold\Makes\MakeRepository;
+use xf\xfscaffold\Makes\MakeRequest;
+use xf\xfscaffold\Makes\MakerTrait;
+use xf\xfscaffold\Makes\MakeService;
+use xf\xfscaffold\Makes\MakeUuids;
 
 class XFScaffoldCommand extends Command
 {

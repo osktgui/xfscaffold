@@ -1,8 +1,8 @@
-<?php namespace xfscaffold\Makes;
+<?php namespace xf\xfscaffold\Makes;
 
 use Illuminate\Console\DetectsApplicationNamespace;
 use Illuminate\Filesystem\Filesystem;
-use xfscaffold\Console\Commands\XFScaffoldCommand;
+use xf\xfscaffold\Commands\XFScaffoldCommand;
 
 class MakeContract {
   use DetectsApplicationNamespace, MakerTrait;
