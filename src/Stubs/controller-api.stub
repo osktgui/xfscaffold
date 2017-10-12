@@ -1,0 +1,34 @@
+<?php namespace {{namespace}}Http\Controllers\Api;
+
+use {{namespace}}Http\Controllers\Controller;
+use {{namespace}}Http\Requests\Store{{Model}};
+use {{namespace}}Services\{{Model}} as {{Model}}Service;
+
+class {{Model}}Controller extends Controller{
+    protected ${{model}}Service;
+
+    public function __construct({{Model}}Service ${{model}}Service)
+    {
+        $this->{{model}}Service = ${{model}}Service;
+    }
+
+    public function index(){
+        return $this->{{model}}Service->all();
+    }
+
+    public function store(Store{{Model}} $request){
+        return $this->{{model}}Service->store($request->all());
+    }
+
+    public function update(Store{{Model}} $request, ${{model}}){
+        return $this->{{model}}Service->update($request-> all(), ${{model}}->id);
+    }
+
+    public function destroy(${{model}}){
+        return $this->{{model}}Service->delete(${{model}}->id);
+    }
+
+    public function show(${{model}}){
+        return ${{model}};
+    }
+}

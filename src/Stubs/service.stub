@@ -1,0 +1,40 @@
+<?php
+namespace {{namespace}}Services;
+
+use {{namespace}}Repositories\{{Model}} as {{Model}}Repository;
+
+class {{Model}} {
+    protected ${{models}};
+
+    public function __construct({{Model}}Repository ${{models}}) {
+        $this->{{models}} = ${{models}};
+    }
+
+    public function all() {
+      return $this->{{models}}->all();
+    }
+
+    public function store($data){
+        return $this->{{models}}->create($data);
+    }
+
+    public function update($data, $id){
+        return $this->{{models}}->update($data, $id);
+    }
+
+    public function delete($id){
+        return $this->{{models}}->delete($id);
+    }
+
+    public function paginate($perPage = 15, $columns = array('*'), $order_type = 'desc') {
+        return $this->{{models}}->paginate($perPage, $columns, $order_type);
+    }
+
+    public function find($id, $columns = array('*')) {
+        return $this->{{models}}->find($id, $columns);
+    }
+
+    public function findBy($field, $value, $columns = array('*')) {
+        return $this->{{models}}->findBy($field, $value, $columns);
+    }
+}
