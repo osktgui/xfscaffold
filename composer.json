@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "xfscaffold\\": "src/"
+            "xf\\xfscaffold\\": "src/"
         }
     }
 }
