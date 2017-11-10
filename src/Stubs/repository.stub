@@ -6,6 +6,6 @@ class {{Model}} extends Repository {
 
   function model()
   {
-    return '{{namespace}}\Models\{{Model}}';
+    return '{{namespace}}Models\{{Model}}';
   }
 }
