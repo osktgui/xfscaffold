@@ -43,4 +43,8 @@ class Store{{Model}} extends FormRequest {
     {
         return $validator->errors()->all();
     }
+
+    protected function failedValidation(Validator $validator) {
+        throw new HttpResponseException(response()->json($validator->errors(), 422));
+    }
 }
